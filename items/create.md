@@ -12,6 +12,7 @@ access to the parent folder of the new item.
 <!-- { "blockType": "ignored" } -->
 ```http
 POST /drive/items/{parent-id}/children
+POST /drive/root:/{item-path}:/children
 ```
 
 ### Request body
